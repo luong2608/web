@@ -125,6 +125,37 @@ nav {
     margin-bottom: 15px;
     color: #ffffff;
 }
+footer {
+    width: 100%;
+    background-color: #0d0f1b;
+    border-top: 2px solid #7209b7;
+    padding: 30px 20px;
+    text-align: center;
+    color: white;
+}
+footer h2 {
+    color: #00f0ff;
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.footer-thongtin {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.footer-thongtin p {
+    font-size: 14px;
+    margin: 5px;
+}
+.footer-copy {
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px solid #30364f;
+    color: #aaa;
+    font-size: 13px;
+}
 #game {
   width: 100%;
   min-height: 100vh;
