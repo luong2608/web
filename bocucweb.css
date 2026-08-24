@@ -123,7 +123,7 @@ nav {
 #game {
   background-color: #0d0f1b;
   padding: 30px 20px;
-  border-top: 2px solid #7209b7;
+  border-top: 2px solid #c21ad1;
   text-align: center;
   
 }
@@ -139,7 +139,7 @@ nav {
   justify-content: space-between;
   gap: 15px;
 }
-#game-card {
+.game-card {
   width: 23%;           
     max-width: 280px;
   text-decoration: none;
@@ -150,7 +150,10 @@ nav {
   transition: all 0.3s ease;
   display: block;
 }
-#game-card img {
+.game-card details{
+  color: #8ee859;
+}
+.game-card img {
   width: 100% ;
   height: 140px;
   object-fit: cover;
@@ -163,11 +166,142 @@ nav {
   font-weight: bold;
   padding: 10px 5px;
 }
-#game-card:hover {
+.game-card:hover {
   transform: translateY(-5px);
   border-color: #00f0ff;
   box-shadow: 0 0 15px rgba(0, 240, 255, 0.4);
 }
-#game-card:hover span {
+.game-card:hover span {
+  color: #00f0ff;
+}
+#congdong {
+  background: #0d1b2a;
+  color: white;
+  padding-bottom: 40px;
+  border-top: 2px solid #7209b7;
+}
+.header-congdong {
+  background: #0f172a;
+  color: white;
+  padding: 18px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tieude {
+  font-size: 28px;
+  font-weight: bold;
+}
+.tieude span {
+  color: #38bdf8;
+}
+.button-congdong {
+  display: inline-block;
+  padding: 13px 25px;
+  background: #0000cd;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  border: 1px solid #00f0ff;
+  transition: 0.3s;
+}
+.button-congdong:hover {
+  background: #7209b7;
+  color: #00f0ff;
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.5);
+  transform: translateY(-3px);
+}
+.noidung-congdong {
+  text-align: center;
+  padding: 35px 5%;
+}
+.noidung-congdong h2 {
+  color: #00f0ff;
+  font-size: 26px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.noidung-congdong h3 {
+  color: #00f0ff;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+#lienhe {
+  background-color: #0d1b2a;
+  padding: 40px 7%;
+  border-top: 2px solid #7209b7;
+  color: white;
+}
+#lienhe h2 {
+  text-align: center;
+  color: #00f0ff;
+  font-size: 26px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.lienhe-gioithieu {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+.lienhe-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.lienhe-thongtin,.lienhe-form {
+    width: 45%;
+    background-color: #121526;
+    border: 1px solid #1f2438;
+    border-radius: 8px;
+    padding: 25px;
+}
+.lienhe-thongtin h3,.lienhe-form h3 {
+    color: #00f0ff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.lienhe-thongtin p {
+    font-size: 15px;
+    margin: 18px 0;
+    color: white;
+}
+.lienhe-form input,
+.lienhe-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #30364f;
+    border-radius: 5px;
+    background-color: #0d1b2a;
+    color: white;
+    font-size: 14px;
+}
+.lienhe-form textarea {
+    height: 100px;
+    resize: none;
+}
+.lienhe-form input:focus,
+.lienhe-form textarea:focus {
+    outline: none;
+    border-color: #00f0ff;
+}
+.lienhe-form button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0000cd;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.lienhe-form button:hover {
+    background-color: #7209b7;
+    box-shadow: 0 0 15px rgba(0, 240, 255, 0.5);
     color: #00f0ff;
 }
