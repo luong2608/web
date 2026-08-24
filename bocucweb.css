@@ -13,6 +13,9 @@ header {
   background-color:#0000CD;
   height: 100px;
   display: flex;
+  position:-webkit-sticky;
+    top: 0;
+    z-index: 9999;
 }
 
 .logo {
